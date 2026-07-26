@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ApexPlanet Software Pvt Ltd</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<header>
+
+<nav>
+
+<div class="logo">
+
+<img src="logoimg.jpeg" height="60" >
+
+</div>
+
+<ul>
+
+<li><a href="#">Home</a></li>
+<li><a href="#services">Services</a></li>
+<li><a href="#todo">ToDo</a></li>
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+</nav>
+
+<div class="hero">
+
+<div>
+
+<h1>Build Your Digital Future</h1>
+
+<p>
+Professional Software Development, Web Development,
+Mobile Apps and Cloud Solutions.
+</p>
+
+<a href="#contact" class="btn">Contact Us</a>
+
+</div>
+
+<img src="bodyimg.jpeg" class="hero-image" alt="Software Deployment">
+</div>
+
+</header>
+
+<section id="services">
+
+<h2>Our Services</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Website Development</h3>
+<img src="softdevimg.jpeg" height="200" width="200">
+<p>Responsive modern websites.</p>
+</div>
+
+<div class="card">
+    
+<h3>Mobile Apps</h3>
+<img src="mobimg.jpeg" height="150" width="200">
+<p>Android & IOS Development.</p>
+</div>
+
+<div class="card">
+<h3>AI Solutions</h3>
+<img src="aiimg.jpeg" height="150" width="200">
+<p>Automation using AI.</p>
+</div>
+
+<div class="card">
+<h3>Cloud Computing</h3>
+<img src="cloudimg.jpeg" height="150" width="200">
+<p>AWS & Azure Deployment.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="todo">
+
+<h2>Daily Task Manager</h2>
+
+<div class="todo">
+
+<input type="text" id="taskInput" placeholder="Enter New Task">
+
+<button onclick="addTask()">Add Task</button>
+
+<ul id="taskList"></ul>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2>Contact Form</h2>
+
+<form id="contactForm">
+
+<input type="text" id="name" placeholder="Your Name">
+
+<input type="email" id="email" placeholder="Your Email">
+
+<textarea id="message" placeholder="Message"></textarea>
+
+<button type="submit">Send Message</button>
+
+</form>
+
+<p id="result"></p>
+
+</section>
+
+<footer>
+
+<p>© 2025 ApexPlanet Software Pvt Ltd</p>
+<p>© by Laxman Das</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
